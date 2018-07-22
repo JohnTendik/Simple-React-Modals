@@ -22,13 +22,13 @@ cofirm prop should be a function which will be called when the confirm button is
 
 How to launch modals?
 
-`
+```
 let options: {
   title: 'my modal title'
-} \n
-let currentModals = this.state.modals; \n
-currentModals.push(options) \n
+}
+let currentModals = this.state.modals; 
+currentModals.push(options)
 this.setState({modals: currentModals});
-`
+```
 
 pushing a new object full of options will launch a new modal. You can push as many modals as you like. I got as far as 129 before I ran out of screen space. 
