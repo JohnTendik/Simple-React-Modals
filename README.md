@@ -25,9 +25,9 @@ How to launch modals?
 `
 let options: {
   title: 'my modal title'
-}
-let currentModals = this.state.modals;
-currentModals.push(options)
+} \n
+let currentModals = this.state.modals; \n
+currentModals.push(options) \n
 this.setState({modals: currentModals});
 `
 
