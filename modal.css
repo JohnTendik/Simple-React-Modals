@@ -30,10 +30,14 @@
 .jt-modal-overlay .jt-modal .modalFooter {
   display: flex;
   justify-content: flex-end;
-  padding: 14px;
+  border-radius: 0 0 2px 2px;
 }
 
 .jt-modal-overlay .jt-modal .modalFooter .modalCancel {
-  background: #efefef;
-  border-radius: 0 0 2px 2px;
+  background: #efefef; 
+  margin: 14px;
+}
+
+.jt-modal-overlay .jt-modal .modalFooter button {
+  margin: 14px;
 }
