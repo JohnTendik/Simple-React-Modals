@@ -1,6 +1,9 @@
 # Simple-React-Modals
 Simple React Modals that does not leave junk in the DOM.
 
+# Demo :)
+https://johntendik.github.io/Simple-React-Modals/
+
 # Usage
 
 `import Modal from './Modal/Modal';`
